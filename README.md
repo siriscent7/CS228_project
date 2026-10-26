@@ -4,7 +4,7 @@ A cheap INT8 ArcFace-R50 model scores every face pair. Only pairs whose score fa
 decision threshold (the "margin") are re-checked with the FP32 model, so FP32 cost is paid on a
 small fraction of pairs.
 
-![Agreement and accuracy vs escalation rate](results/agreement_vs_escalation.png)
+![Agreement and accuracy vs escalation rate](results.png)
 
 *Left: agreement of two-tier decisions with FP32 decisions vs. the fraction of pairs escalated to
 FP32 (mean of 10 random calibration/test splits; the y-axis spans only 0.25 percentage points).

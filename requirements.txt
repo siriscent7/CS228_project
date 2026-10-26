@@ -1,0 +1,7 @@
+onnx
+onnxruntime
+numpy
+pandas
+matplotlib
+scikit-learn
+pillow

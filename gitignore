@@ -1,0 +1,14 @@
+# Large / non-redistributable inputs and generated models
+*.onnx
+*.bin
+*.zip
+ckpt/
+__MACOSX/
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+# keep the small result files
+!results/*.csv
+!results/*.json
+!results/*.png
+!results/embeddings.npz
